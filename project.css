@@ -1,0 +1,31 @@
+body {
+  background-color: #303336;
+  color: white;
+  max-width: 700px;
+  margin: auto;
+  padding: 40px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: normal;
+  line-height: 1.5em;
+}
+.my_links {
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+.my_links a {
+  color: #6f7c8b;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bolder;
+}
+.icon_items {
+  margin: 0 35%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  letter-spacing: 20px;
+}
+.icon_items a {
+  color: white;
+}

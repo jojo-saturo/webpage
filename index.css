@@ -1,0 +1,37 @@
+body {
+  background-color: #303336;
+  color: #d1d5da;
+  max-width: 700px;
+  padding: 40px;
+  margin: auto;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  line-height: 20px;
+  font: 200;
+}
+a:hover {
+  font-weight: bolder;
+}
+.my_links {
+  margin: 5px 0;
+  letter-spacing: 2px;
+}
+.my_links a,
+.contact a {
+  color: #6f7c8b;
+  text-decoration: none;
+}
+.introduction {
+  color: #6f7c8b;
+  font-weight: bold;
+}
+.icon_items {
+  margin: 0 40%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  letter-spacing: 20px;
+}
+.icon_items a {
+  color: white;
+}

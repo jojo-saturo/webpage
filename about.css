@@ -1,0 +1,74 @@
+.my_links {
+  margin-right: 20px;
+  letter-spacing: 2px;
+}
+.my_links a {
+  color: #6f7c8b;
+  text-decoration: none;
+}
+body {
+  background-color: #303336;
+  font: 100;
+  padding: 10px;
+  font-family: "IBM Plex Mono", monospace;
+  line-height: 20px;
+  font-size: 14px;
+  max-width: 700px;
+  margin: auto;
+  color: white;
+}
+h1 {
+  font-weight: 600;
+}
+h3 {
+  color: #6f7c8b;
+}
+.myimage_container {
+  width: inherit;
+  border-radius: 10px;
+}
+.soft_skills {
+  color: #d1d5da;
+}
+li strong {
+  color: rgba(238, 118, 7, 0.959);
+}
+a:hover {
+  font-weight: bolder;
+}
+.icon_items {
+  margin: 0 40%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  letter-spacing: 20px;
+}
+.icon_items a {
+  color: white;
+}
+
+/* Target for mobile screens */
+@media only screen and (max-width: 650px) {
+  body {
+    line-height: 25px;
+    max-width: 80%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .head_container {
+    font-size: 1.2em;
+    color: white;
+  }
+}
+
+/*Target for tablet screens*/
+@media screen and (min-width: 651px) and (max-width: 1024px) {
+  body {
+    max-width: 80%;
+    margin: auto;
+  }
+}
