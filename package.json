@@ -1,7 +1,7 @@
 {
   "name": "html-css",
   "version": "1.0.0",
-  "description": "A template for HTML and CSS",
+  "description":"Jojo saturo website",
   "main": "index.html",
   "scripts": {
     "start": "serve"
