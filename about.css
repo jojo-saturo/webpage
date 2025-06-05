@@ -11,14 +11,16 @@ body {
   font: 100;
   padding: 10px;
   font-family: "IBM Plex Mono", monospace;
-  line-height: 20px;
-  font-size: 14px;
+  line-height: 2em;
+  font-size: 0.9em;
   max-width: 700px;
   margin: auto;
-  color: white;
+  color: #c8ccda;
+  font-weight: normal;
 }
 h1 {
   font-weight: 600;
+  color: white;
 }
 h3 {
   color: #6f7c8b;
@@ -44,6 +46,10 @@ a:hover {
   letter-spacing: 20px;
 }
 .icon_items a {
+  color: white;
+}
+
+.head_container {
   color: white;
 }
 

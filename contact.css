@@ -4,9 +4,9 @@ body {
   max-width: 700px;
   margin: auto;
   background: #303336;
-  color: white;
+  color: #c8ccda;
   font-weight: normal;
-  line-height: 1.8em;
+  line-height: 2em;
 }
 .my_links {
   font-weight: 400;
@@ -48,5 +48,9 @@ a:hover {
   letter-spacing: 20px;
 }
 .icon_items a {
+  color: white;
+}
+
+h1 {
   color: white;
 }

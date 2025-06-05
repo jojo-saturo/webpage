@@ -1,13 +1,13 @@
 body {
   background-color: #303336;
-  color: #d1d5da;
+  color: #c8ccda;
   max-width: 700px;
   padding: 40px;
   margin: auto;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 14px;
-  line-height: 20px;
-  font: 200;
+  font-size: 0.9em;
+  line-height: 2em;
+  font-weight: normal;
 }
 a:hover {
   font-weight: bolder;
@@ -33,5 +33,9 @@ a:hover {
   letter-spacing: 20px;
 }
 .icon_items a {
+  color: white;
+}
+
+h1 {
   color: white;
 }
