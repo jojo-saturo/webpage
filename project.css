@@ -12,7 +12,7 @@ body {
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
-.my_links a {
+.my_links a, a {
   color: #6f7c8b;
   text-decoration: none;
 }
